@@ -80,6 +80,7 @@ public class Script
 		}
 
 
-		var order = OrderFactory.CreateOrder("Order 999");
+		var order = OrderFactory.CreateOrder("Order 1");
+		order.Dispatch("Thijs V.");
 	}
 }
