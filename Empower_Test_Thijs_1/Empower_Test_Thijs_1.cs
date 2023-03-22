@@ -53,6 +53,7 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
+using Empower.Library.RoomTest;
 using Skyline.DataMiner.Automation;
 using Skyline.DataMiner.Core.DataMinerSystem.Automation;
 
@@ -77,5 +78,8 @@ public class Script
 		{
 			engine.GenerateInformation("Element Name = " + element.Name);
 		}
+
+
+		var order = OrderFactory.CreateOrder("Order 999");
 	}
 }
